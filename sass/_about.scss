@@ -1,0 +1,129 @@
+.aboutContainer1{
+	height: auto;
+	width: 100%;
+	font-family: 'Lato';
+	@include for-phone-only{
+		height: auto;
+	}
+	@include for-phone-only2{
+		height: auto;
+	}
+	@include for-tablet-portrait-up{
+		height: auto;
+	}
+}
+
+.aboutContainer1 .container .row{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+.aboutRow1{
+	height: 40vh;
+	width: 100%;
+	@include for-phone-only{
+		height: 25vh;
+	}
+	@include for-phone-only2{
+		height: 25vh;
+	}
+	@include for-tablet-portrait-up{
+		height: 20vh;
+	}
+}
+
+.aboutRow1 h2{
+	font-family: 'Montserrat';
+	font-weight: 500;
+	color: rgba(179, 111, 54, 0.8);
+	font-size: 1.4em;
+}
+
+.aboutRow1 h1{
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 1.8em;
+	margin-top: -0.4em;
+}
+
+.aboutRow1Border{
+	height: 1vh;
+	width: 100%;
+}
+
+.aboutRow1Border:before {
+  content : "";
+  position: absolute;
+  width   : 5%;  /* or 100px */
+  border-top: 1.5px solid black;
+  	@include for-phone-only{
+		width: 20%;
+	}
+	@include for-phone-only2{
+		width: 20%;
+	}
+}
+
+
+
+
+
+
+
+
+.aboutRow2{
+	height: auto;
+	width: 100%;
+	@include for-phone-only2{
+		height: auto;
+	}
+	@include for-phone-only{
+		height: auto;
+	}
+	@include for-tablet-portrait-up{
+		height: auto;
+	}
+}
+
+.aboutRow2 h3{
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 1.1em;
+	@include for-phone-only{
+		font-size: 1.5em;
+	}
+	@include for-phone-only2{
+		font-size: 1.5em;
+	}
+}
+
+.aboutRow2 p{
+	font-family: 'Lato';
+	font-weight: 400;
+}
+
+.aboutCol1{
+	height: 50vh;
+	width: 85% !important;
+	@include for-phone-only{
+		height: 40vh;
+		width: 100% !important;
+	}
+	@include for-phone-only2{
+		height: 40vh;
+		width: 100% !important;
+	}
+}
+
+.aboutSymbol{
+	height: 10vh;
+}
+
+.aboutText{
+	height: 40vh;
+	width: 80%;
+}

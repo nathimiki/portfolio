@@ -1,0 +1,78 @@
+
+
+//WORK
+
+.workRow4{
+	height: auto;
+    width: 100%;
+    @include for-phone-only{
+        height: auto
+    }
+    @include for-phone-only2{
+        height: auto
+    }
+    @include for-tablet-portrait-up{
+      height: auto
+  }
+}
+
+.resumeCol{
+	height: 30vh;
+    width: 100%;
+    @include for-phone-only{
+        height: 16vh;
+    }
+    @include for-phone-only2{
+        height: 16vh;
+    }
+    @include for-tablet-portrait-up{
+      height: 16vh;
+    }
+}
+
+.face-button {
+    height: 64px;
+    width: 30%;
+    display: inline-block;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    // z-index: 1;
+    @include for-phone-only{
+        width: 60%;
+    }
+    @include for-phone-only2{
+        width: 60%;
+    }
+    
+    .icon {
+      margin-right: 6px;
+    }
+    
+    .face-primary,
+    .face-secondary {
+      display: block;
+      transition: margin .4s;
+    }
+
+    .face-primary {
+      background-color: #b36f36;
+      color: #fff;
+      line-height: 64px;
+    }
+
+    .face-secondary {
+        border: 2px solid #b36f36;
+        height: 60px;
+        line-height: 60px;
+    }
+    
+    &:hover .face-primary {
+      margin-top: -64px;
+    }
+  }
+
+
+
+

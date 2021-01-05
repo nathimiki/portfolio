@@ -1,0 +1,193 @@
+.skillsContainer{
+	height: auto;
+	width: 100%;
+	font-family: 'Lato';
+	background-color: #c2c5a9;
+	@include for-phone-only{
+		height: auto;
+	}
+	@include for-phone-only2{
+		height: auto;
+	}
+}
+
+.skillsContainer .container{
+	height: auto;
+	width: 100%;
+	@include for-phone-only{
+		height: auto;
+	}
+	@include for-phone-only2{
+		height: auto;
+	}
+}
+
+.skillsContainer .container .row{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+.skillsRow1{
+	height: 20vh;
+	width: 100%;
+	@include for-phone-only{
+		height: 30vh;
+	}
+	@include for-phone-only2{
+		height: 30vh;
+	}
+	@include for-tablet-portrait-up{
+		height: 20vh;
+	}
+}
+
+.skillsRow1 h2{
+	font-family: 'Montserrat';
+	font-weight: 500;
+	color: rgba(179, 111, 54, 0.8);
+	font-size: 1.4em;
+}
+
+.skillsRow1 h1{
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 1.8em;
+	margin-top: -0.4em;
+}
+
+.skillsRow1Border{
+	height: 1vh;
+	width: 100%;
+}
+
+.skillsRow1Border:before {
+  content : "";
+  position: absolute;
+  width   : 5%;  /* or 100px */
+  border-top: 1.5px solid black;
+}
+
+
+
+
+
+
+
+.skillsRow2{
+	height: 60vh;
+	width: 100%;
+	@include for-phone-only{
+		height: auto;
+	}
+	@include for-phone-only2{
+		height: auto;
+	}
+	@include for-tablet-portrait-up{
+		height: auto;
+	}
+}
+
+.skillsRow2 h3{
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+.skillsRow2 p{
+	font-family: 'Lato';
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+.skillsRow3{
+	height: 57vh;
+	width: 100%;
+}
+
+.skillsRow3 h3{
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+.skillsRow3 p{
+	font-family: 'Lato';
+	font-weight: 400;
+}
+
+.skillsCol{
+	height: 57vh;
+	width: 85% !important;
+	@include for-phone-only{
+		height: auto;
+	}
+	@include for-phone-only2{
+		height: auto;
+	}
+	@include for-tablet-portrait-up{
+		height: auto;
+	}
+}
+
+.skillsDetails{
+	height: 10%;
+	width: 100%;
+}
+
+.skillsDetails .badge{
+	background-color: #3d3f3e;
+	color: white;
+	width: 6em;
+}
+
+.skillsRectangle{
+	width: 70%;
+	height: 80%;
+	background-color: white;
+	right: 0 !important;
+}
+
+.skillsRectangle p{
+	line-height: 1;
+	margin: 0;
+	font-family: 'Lato';
+	color: white;
+}
+
+.skillsFill1{
+	height: 100%;
+	width: 90%;
+	background-color: #b36f36;
+}
+
+.skillsFill2{
+	height: 100%;
+	width: 60%;
+	background-color: #b36f36;
+}
+
+.skillsFill3{
+	height: 100%;
+	width: 80%;
+	background-color: #b36f36;
+}
+
+.skillsFill4{
+	height: 100%;
+	width: 70%;
+	background-color: #b36f36;
+}
+
+.skillsFill5{
+	height: 100%;
+	width: 50%;
+	background-color: #b36f36;
+}

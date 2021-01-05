@@ -1,0 +1,78 @@
+@mixin for-phone-only {
+  @media (max-width: 599px) and (max-height: 736px) { @content; }
+}
+@mixin for-phone-only2 {
+  @media (max-width: 599px) and (min-height: 737px) and (max-height: 897px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) and (max-width: 768px) and (max-height: 1024px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) and (max-width: 1023px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+
+
+a{
+	text-decoration: none !important;
+}
+
+@import './_menu.scss';
+@import './_landing.scss';
+@import './_about.scss';
+@import './_skills.scss';
+@import './_work.scss';
+@import './_modals.scss';
+@import './_resume.scss';
+@import './_contact.scss';
+
+body{
+  max-width:100%;
+  // background-image: url('/images/bg-grey.jpg');
+	// -webkit-background-size: cover;
+	// -moz-background-size: cover;
+	// -o-background-size: cover;
+	// background-size: cover;
+}
+
+// .navbar-default{
+// 	max-width:100%;
+// }
+
+// .navbar-nav{
+//   padding: 0 !important;
+// }
+
+button:focus{
+  outline: none !important;
+}
+
+.scroll-top {
+  width: 75px;
+  height: 75px;
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  display: none;
+}
+
+.iconBottom .fa-chevron-circle-up{
+  color: rgba(61, 63, 62, 0.6);
+}
+
+.iconBottom .fa-chevron-circle-up:focus, .iconBottom .fa-chevron-circle-up:hover{
+  border: none;
+  outline: none;
+}
+
+.iconBottom button{
+  background-color: transparent;
+}
+
+.iconBottom .btn:focus, .iconBottom .btn:hover, .iconBottom .btn:active{
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}

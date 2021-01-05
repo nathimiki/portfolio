@@ -1,0 +1,75 @@
+.modal-content{
+    background-color: transparent !important;
+    border: none !important;
+    height: auto;
+}
+
+.modal-content .row{
+    height: auto;
+}
+
+.modal-content button span{
+    color:white;
+}
+
+.modal-content h1, .modal-content h2{
+    color: white;
+    @include for-phone-only{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    @include for-phone-only2{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+.modal-content h1{
+    font-family: "Montserrat";
+    font-size: 1.4em;
+    font-weight: 500;
+    @include for-phone-only{
+        padding-top: 10%;
+    }
+    @include for-phone-only2{
+        padding-top: 10%;
+    }
+}
+
+.modal-content h2{
+    font-family: "Lato";
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.modal-content .row{
+    height:auto;
+}
+
+.modal-content img{
+    width: 60%;
+	height: auto;
+    align-self: flex-start;
+    padding-bottom: 1.5em;
+    @include for-phone-only{
+        width: 80%;
+    }
+    @include for-phone-only2{
+        width: 80%;
+    }
+    @include for-tablet-portrait-up{
+        width: 80%;
+    }
+}
+
+.modal-content .workModalBorder{
+	height: 2vh;
+	width: 100%;
+}
+
+.modal-content .workModalBorder:before {
+    content : "";
+    position: absolute;
+    width   : 25%;  /* or 100px */
+    border-top: 1.5px solid white;
+  }
